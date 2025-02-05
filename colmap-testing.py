@@ -9,6 +9,8 @@ database_path = os.path.join(workspace_folder, "database.db")
 sparse_folder = os.path.join(workspace_folder, "sparse")
 dense_folder = os.path.join(workspace_folder, "dense")
 
+#HEADS UP: THIS CODE IS NOT THE CODE I USED FOR THE DENSE RECONSTRUCTION - I USED THE GUI. I WILL UPDATE THIS ON TUESDAY. 
+
 os.makedirs(sparse_folder, exist_ok=True)
 os.makedirs(dense_folder, exist_ok=True)
 
@@ -63,3 +65,4 @@ subprocess.run([
 
 
 print("Sparse and Dense reconstruction complete")
+
